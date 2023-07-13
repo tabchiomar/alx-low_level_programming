@@ -1,6 +1,12 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
+
+	/**
+	 *  * main - Entry point
+	 *   *
+	 *    * Return: Always 0 (Success)
+	 *     */
 
 int a=sizeof(int);
 int b=sizeof(long int);
@@ -14,5 +20,5 @@ printf("Size of a long int: %d byte(s)\n", b);
 printf("Size of a long long int: %d byte(s)\n", c);
 printf("Size of a float: %d byte(s)\n", f);
 	
-return 0;
+return (0);
 }
