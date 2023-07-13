@@ -2,11 +2,11 @@
 int main(void)
 {
 
-	/**
-	 *  * main - Entry point
-	 *   *
-	 *    * Return: Always 0 (Success)
-	 *     */
+/**
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
+ */
 
 int a = sizeof(int);
 int b = sizeof(long int);
