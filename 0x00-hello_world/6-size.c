@@ -8,11 +8,11 @@ int main(void)
 	 *    * Return: Always 0 (Success)
 	 *     */
 
-int a=sizeof(int);
-int b=sizeof(long int);
-int c=sizeof(long long int);
-int d=sizeof(char);
-int f=sizeof(float);
+int a = sizeof(int);
+int b = sizeof(long int);
+int c = sizeof(long long int);
+int d = sizeof(char);
+int f = sizeof(float);
 
 printf("Size of a char: %d byte(s)\n", d);
 printf("Size of an int: %d byte(s)\n", a);
